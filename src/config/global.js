@@ -161,124 +161,153 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Buenas prácticas ganaderas en la producción de bovinos de leche - BPG',
+      tema: 'Plan de implementación',
       referencia:
-        'IICA - SENASA. (2018). Buenas Prácticas Pecuarias en la Producción de Ganado Bovino.',
-      tipo: 'Manual',
+        'Tafur Garzón, M. & Nieto, A. (2011). Las Buenas Prácticas Ganaderas en la Producción de Leche. ICA - MADR. ',
+      tipo: 'Cartilla',
       link:
-        'http://proleche.com/wp-content/uploads/2019/02/ManualProduccio%CC%81nGanadoBovino.pdf',
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/2259/44962_60380.pdf',
     },
     {
-      tema: 'Aplicación BPG',
+      tema: 'Plan de implementación',
       referencia:
-        'Sitio Argentino de Producción Animal. (2012). Aplicación de las buenas prácticas ganaderas (BPG). Un caso real.',
-      tipo: 'Artículo ',
+        'Uribe F., Zuluaga, A. F., Valencia L., Mugueitio, E. & Ochoa L. (2011). Manuel 3. Buenas prácticas ganaderas. Ganadería Colombiana Sostenible.  ',
+      tipo: 'Manual',
       link:
-        'https://www.produccion-animal.com.ar/etologia_y_bienestar/bienestar_en_bovinos/62-bpg.pdf',
+        'http://ganaderiacolombianasostenible.co/web/wp-content/uploads/2015/04/3.-Buenas-Practicas-Ganaderas.pdf',
+    },
+    {
+      tema: 'Procedimientos, procesos, registros',
+      referencia:
+        'Nickerson Stephen, C. (s.f.). Estrategias de Prevención y Control de Mastitis. ',
+      tipo: 'Documento',
+      link:
+        'http://www.aprocal.com.ar/wp-content/uploads/estrategias_prevencion_y_control_mastitis.htm.pdf',
+    },
+    {
+      tema: 'Procedimientos, procesos, registros',
+      referencia:
+        'Strappini A. C., Gallo, C., Bustamante, H., Werner, M., Sepúlveda, Pilar. & Valenzuela, R. (2018). Manual de Manejo y Bienestar de la Vaca Lechera.',
+      tipo: 'Manual',
+      link:
+        'https://www.prolesur.cl/content/dam/prolesur/documents/2018/Manual_de_manejo_y_bienestar_de_la_vaca_lechera.pdf',
+    },
+    {
+      tema: 'Gestión documental',
+      referencia: 'TVAgro. (2016). Implementación de Buenas Prácticas Lecheras',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fn06Uia3JSQ',
     },
   ],
   glosario: [
     {
       termino: 'Bienestar animal',
       significado:
-        'Es el estado físico y mental de los animales con relación a las condiciones en las que viven y mueren.',
+        'Es el estado físico y mental de los animales con relación a las condiciones en las que vive y muere (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
       termino: 'Bioseguridad',
       significado:
-        'Son todas aquellas medidas sanitarias, procedimientos técnicos y normas de manejo que se aplican de forma permanente, con el propósito de prevenir la entrada y salida de agentes infectocontagiosos en la unidad de producción primaria.',
+        'Son todas aquellas medidas sanitarias, procedimientos técnicos y normas de manejo que se aplican de forma permanente, con el propósito de prevenir la entrada y salida de agentes infectocontagiosos en la unidad de producción primaria (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
       termino: 'Buenas Prácticas Ganaderas (BPG)',
       significado:
-        'Prácticas recomendadas con el propósito de disminuir riesgos físicos, químicos y biológicos en la producción primaria de alimentos de origen animal que puedan generar riesgo a las personas promoviendo la sanidad, el bienestar animal y la protección del medio ambiente. ',
+        'Prácticas recomendadas con el propósito de disminuir riesgos físicos, químicos y biológicos en la producción primaria de alimentos de origen animal que puedan generar riesgo a las personas promoviendo la sanidad, el bienestar animal y la protección del medio ambiente (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Buenas Prácticas en el Uso de Medicamentos Veterinarios (BPMV)',
+      termino: 'Criterios fundamentales',
       significado:
-        'Se define como el cumplimiento de los métodos de empleo oficialmente recomendados para los medicamentos de uso veterinario, de conformidad con la información consignada en el rotulado de los productos aprobados, incluido el tiempo de retiro, cuando los mismos se utilizan bajo condiciones prácticas. ',
+        'Son aquellos criterios directamente vinculados con el cumplimiento de la normatividad oficial en materia sanitaria y de inocuidad en la producción primaria. Es obligatorio el cumplimiento del 100% de estos criterios para lograr la certificación en BPG (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Condiciones laborales',
+      termino: 'Criterios mayores',
       significado:
-        'Capacitación del personal, seguridad e higiene del personal y los animales que se manejan.',
+        'Son aquellos criterios cuyo cumplimiento están directamente relacionados con las condiciones necesarias para lograr la inocuidad en la producción primaria. Es obligatorio el cumplimiento de mínimo el 80 % de estos criterios para lograr la certificación (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Inocuidad',
+      termino: 'Criterios menores',
       significado:
-        'Característica o atributo de un alimento, que determina que el consumo del mismo no causa riesgo para la salud del consumidor.',
+        'Son aquellos criterios que, si bien no están relacionados directamente con la inocuidad de producción primaria, su cumplimiento contribuye a garantizar la inocuidad. Es obligatorio el cumplimiento de mínimo el 60 % de estos criterios para lograr la certificación (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+    },
+    {
+      termino: 'Enfermedad de control oficial',
+      significado:
+        'Las enfermedades de control oficial son aquellas que son priorizadas por el ICA debido a su importancia zoonótica o que tienen un impacto económico por ser limitantes para el comercio nacional y/o internacional (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
       termino: 'Inocuidad de los alimentos',
       significado:
-        'Es la garantía de que los alimentos no causarán daño al consumidor cuando se preparen y consuman de acuerdo con el uso al que se destina.',
+        'Es la garantía de que los alimentos no causarán daño al consumidor cuando se preparen y consuman de acuerdo con el uso al que se destina (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Manejo',
+      termino: 'Leche anormal',
       significado:
-        'Considera todas aquellas prácticas que promueven la productividad, bienestar general y salud de los animales e incluye el manejo de subproductos y residuos. ',
+        'Corresponde al producto que presenta alteraciones de diferente naturaleza en los componentes y las propiedades físico-químicas de la leche, que desencadenan problemas en la elaboración de derivados o en la calidad de los mismos (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Registro',
+      termino: 'Peligro',
       significado:
-        'Documento que presenta los resultados obtenidos o proporciona evidencia de actividades desempeñadas. ',
+        'Agente biológico, químico o físico presente en la leche, productos lácteos comestibles, que puede provocar un efecto adverso para la salud humana (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Riesgo',
-      significado: 'Es la probabilidad de que un peligro se presente.',
-    },
-    {
-      termino: 'Trazabilidad',
+      termino: 'Predio de producción primaria',
       significado:
-        'Es el conjunto de acciones y procedimientos que permiten la identificación, registro y seguimiento a todos los eventos de la vida del animal, desde su nacimiento hasta el consumidor final.',
+        'Granja o finca destinada a la producción de animales en cualquiera de sus etapas de desarrollo (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
   ],
   referencias: [
     {
       referencia:
-        'Blanco Ochoa, M. Á. (s.f.). Zootecnia de Bovinos Productores de Leche, Unidad 3. Universidad Nacional de México.',
+        'Delgadillo Pérez, D. (2013). Implementación de las Buenas Prácticas Ganaderas BPG en una finca ubicada en la finca ubicada en la vereda la vereda la Aurora en el municipio de La Calera en el municipio de La Calera.',
       link:
-        'Https://fmvz.unam.mx/fmvz/p_estudios/apuntes_zoo/unidad_3_bovinosleche.pdf',
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1025&context=medicina_veterinaria',
     },
     {
       referencia:
-        'Contexto Ganadero. (2008). La importancia de Implementar BPG en las Ganaderías de Carne. ',
+        'Garzón Espitia, P.G. & Ruiz Sánchez, A. (2015). Estudio sobre el conocimiento del manejo de la leche con residuos farmacológicos, en las ganaderías de una vereda del municipio de Ubaté. Universidad la Salle.',
       link:
-        'https://www.contextoganadero.com/regiones/la-importancia-de-implementar-bpg-en-las-ganaderias-de-carne',
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1099&context=medicina_veterinaria',
     },
     {
       referencia:
-        'Figueredo Candia F. F., Idoyaga H. F., Mendoza, L. & Echeverria, P. (2016). Guía de Buenas Prácticas Pecuarias en Producción Lechera. CONACYT. Servicio Nacional de Calidad y Salud Animal. Investigación para el Desarrollo. Prociencia. ',
+        'Jones, G. M. (2019). Limpieza y desinfección del equipo de ordeño. DAIREXNET.',
       link:
-        'https://www.conacyt.gov.py/sites/default/files/upload_editores/u294/guia-produccion-lechera.pdf',
+        'https://dairy-cattle.extension.org/limpieza-y-desinfeccion-del-equipo-de-ordeno/',
     },
     {
       referencia:
-        'Holmann, F., Rivas, L., Carulla, J., Rivera, B., Giraldo, L. A., Guzmán, S., Martínez, M., Medina, A. & Farrow, A. (2004). Producción de Leche y su Relación con los Mercados: Caso Colombiano. Centro Internacional de Agricultura Tropical - CIAT e Instituto Internacional de Investigación en Ganadería - ILRI.',
-    },
-    {
-      referencia: 'ICA. (2021). Censo Pecuario Nacional.',
-      link:
-        'https://www.ica.gov.co/areas/pecuaria/servicios/epidemiologia-veterinaria/censos-2016/censo-2018',
+        'Kruze, J. (1998). La Rutina de Ordeño y Su Rol en los Programas de Control de Mastitis Bovina. Archivos de medicina veterinaria, 30 (2), 07-16.',
+      link: 'https://dx.doi.org/10.4067/S0301-732X1998000200001',
     },
     {
       referencia:
-        'Palomino Cadavid, P., Jiménez Arboleda, H. A., Naranjo Ramírez, J. A. et al. (2018). Implementación de Buenas Prácticas Ganaderas: principios básicos. Editorial CES, Universidad CES; Medellín.',
+        'Londoño, C., Barrios. D., Bedoya, G. A., Rodríguez, H., Toro, C. A., Silva, M. T., Dávila, M. D, Pemberty, M., Suárez, P. A. & Palacio, L. G. (s.f.). Buenas Prácticas Ganaderas y Gestión Empresarial. Universidad de Antioquia. Facultad de Ciencias Agrarias.',
       link:
-        'https://repository.ces.edu.co/bitstream/handle/10946/3585/Implemetaci%F3n-de-Buenas-Pr%E1cticas-Ganaderas-principios-b%E1sicos.pdf;jsessionid=206AB5C5E89F88E49FA4002C3E0EC105?sequence=1',
+        'https://revistas.udea.edu.co/index.php/biogenesis/article/view/325352/20782758',
     },
     {
       referencia:
-        'Secretaría de Agricultura y Desarrollo Rural. (2017). Sanidad e inocuidad, indispensables en la seguridad alimentaria. Gobierno de México. ',
-      link:
-        'https://www.gob.mx/agricultura/es/articulos/sanidad-e-inocuidad-indispensables-en-la-seguridad-alimentaria',
+        'Moreno Melo, V. (2014). Guía para la Implementación de las Buenas Prácticas Ganaderas. Universidad de Cundinamarca.',
+      link: 'https://es.calameo.com/read/004535211d3fe462ab1b0',
     },
     {
       referencia:
-        'Universidad de Córdoba, España. (s.f.). Características y Particularidades de la Empresa Ganadera. Departamento de Producción Animal.',
+        'Resolución No. 067449 de 2020 [Instituto Colombiano Agropecuario - ICA] Por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de leche. 8 de mayo de 2020.',
       link:
-        'https://www.uco.es/organiza/departamentos/prod-animal/economia/aula/img/pictorex/14_07_59_tema0.pdf',
+        'https://www.ica.gov.co/getattachment/Areas/Pecuaria/Servicios/Inocuidad-en-las-Cadenas-Agroalimentarias/LISTADO-DE-PREDIOS-CERTIFICADOS-EN-BPG/Resolucion-067449-del-08-de-mayo-2020-1.pdf.aspx?lang=es-CO',
+    },
+    {
+      referencia:
+        'Tafur Garzón, M. & Nieto, A. (2011). Las Buenas Prácticas Ganaderas en la Producción de Leche. ICA - MADR.',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/2259/44962_60380.pdf',
+    },
+    {
+      referencia:
+        'Toro Galvis, C. A., Bedoya Henao, G., Rodríguez Espinosa, H., Palacio Baena, L. G. & Silva Pérez, M. L. (2012). Manual para la certificación en buenas prácticas ganaderas en producción de leche. Universidad de Antioquia. Facultad de Ciencias Agrarias.',
+      link:
+        'https://revistas.udea.edu.co/index.php/biogenesis/article/view/326139/20783422',
     },
   ],
   creditos: {
@@ -292,9 +321,29 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Johanna Cruz',
+        cargo: 'Experto Temático',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Gloria Lida Álzate Suarez',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez ',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -324,6 +373,36 @@ export default {
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabal',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Roja',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

@@ -317,7 +317,7 @@
       .contenido-modal
         span Limpieza y desinfección tanque de almacenamiento y equipo de ordeño
         figure.mb-5
-          img(src='@/assets/curso/tema2/img30.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema2/img30.png', alt='Texto que describa la imagen').mb-5
     p.mb-5.text-center #[b Ahora bien, se puede ver en el siguiente recurso los documentos externos que son utilizados en el plan de implementación de las BPG:]
 
     .row.align-items-center

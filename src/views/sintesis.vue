@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 En este punto del componente se invita a visualizar con atención el esquema que aquí se presenta. Analice cada elemento y concepto mostrados en este y realice su propia síntesis del contenido visto. ¡Adelante!
+    p.mb-5 Ya habiendo conocida toda la temática abordada en este componente formativo, es importante que se conozca de manera conceptual, un mapa que relaciona los temas abordados:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

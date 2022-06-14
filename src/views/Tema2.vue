@@ -162,268 +162,329 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
     p.mb-5 En cuanto a los registros se ha afirmado que deben llevarse procedimientos, procesos e implementación del plan de BPG. Por ello, a continuación, se podrá acceder a algunos formatos de marcas registradas, se debe recordar que estos solo serán de apoyo para que se pueda construir los propios:
-    .row.align-items-center
+    .row.align-items-center.mb-5
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal1 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Aplicación de medicamentos veterinarios  
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal1")
-      .contenido-modal
-        span Aplicación de medicamentos veterinarios
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img19.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Aplicación de medicamentos veterinarios
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal1")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img19.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal2 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Control  de plagas y roedores 
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal2")
-      .contenido-modal
-        span Control  de plagas y roedores 
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img21.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Control  de plagas y roedores
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal2")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img21.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal3 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Manejo de potreros
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal3")
-      .contenido-modal
-        span Manejo de potreros
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img20.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Manejo de potreros
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal3 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal3")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img20.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal4 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro ingreso de personas y vehículos
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal4")
-      .contenido-modal
-        span Registro ingreso de personas y vehículos
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img22.png', alt='Texto que describa la imagen')
-    .row.align-items-center
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro ingreso de personas y vehículos
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal4")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img22.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal5 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro de temperatura del equipo y tanque de ordeño
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal5")
-      .contenido-modal
-        span Registro de temperatura del equipo y tanque de ordeño
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img23.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro de temperatura del equipo y tanque de ordeño
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal5 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal5")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img23.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal6 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Control programa de limpieza y desinfección
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal6")
-      .contenido-modal
-        span Control programa de limpieza y desinfección
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img24.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Control programa de limpieza y desinfección
+              .col-auto
+               a.boton.color-acento-contenido.indicador__container(@click="modal6 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal6")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img24.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal7 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro de las pruebas de mastitis (CMT)
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal7")
-      .contenido-modal
-        span Registro de las pruebas de mastitis (CMT)
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img25.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro de las pruebas de mastitis (CMT)
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal7 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal7")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img25.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal8 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Inventario de alimentos
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal8")
-      .contenido-modal
-        span Inventario de alimentos
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img26.png', alt='Texto que describa la imagen')
-    .row.align-items-center
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Inventario de alimentos
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal8 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal8")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img26.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal9 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Capacitaciones del personal
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal9")
-      .contenido-modal
-        span Capacitaciones del personal
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img27.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Capacitaciones del personal
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal9 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal9")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img27.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal10 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Ingreso y  salida de animales
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal10")
-      .contenido-modal
-        span Ingreso y  salida de animales
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img28.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Ingreso y  salida de animales
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal10 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal10")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img28.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal11 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro individual de cada animal
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal11")
-      .contenido-modal
-        span Registro individual de cada animal
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img29.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro individual de cada animal
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal11 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal11")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img29.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal12 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Limpieza y desinfección tanque de almacenamiento y equipo de ordeño
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal12")
-      .contenido-modal
-        span Limpieza y desinfección tanque de almacenamiento y equipo de ordeño
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img30.png', alt='Texto que describa la imagen').mb-5
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Limpieza y desinfección tanque de almacenamiento y equipo de ordeño
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal12 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal12")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img30.png', style="width: 900px").m-auto
     p.mb-5.text-center #[b Ahora bien, se puede ver en el siguiente recurso los documentos externos que son utilizados en el plan de implementación de las BPG:]
-
     .row.align-items-center
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal13 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Certificado uso del suelo  
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal13")
-      .contenido-modal
-        span Certificado uso del suelo
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img31.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Certificado uso del suelo
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal13 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal13")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img31.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal14 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Certificado hato libre de tuberculosis 
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal14")
-      .contenido-modal
-        span Certificado hato libre de tuberculosis 
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img35.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Certificado hato libre de tuberculosis
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal14 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal14")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img35.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal15 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Guía de movilización interna
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal15")
-      .contenido-modal
-        span Guía de movilización interna
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img32.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Guía de movilización interna
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal15 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal15")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img32.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal16 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Constancia registro de predio ante el ICA
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal16")
-      .contenido-modal
-        span Constancia registro de predio ante el ICA
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img22.png', alt='Texto que describa la imagen')
-    .row.align-items-center
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Constancia registro de predio ante el ICA
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal16 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal16")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img37.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal17 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro sanitario de predio
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal7")
-      .contenido-modal
-        span Registro sanitario de predio
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img33.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro sanitario de predio
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal17 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal17")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img33.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg12.boton-modal.position-relative.p-3(@click="modal18 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Registro único de vacunación - RUV aftosa y brucelosis
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal18")
-      .contenido-modal
-        span Registro único de vacunación - RUV aftosa y brucelosis
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img37.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg12
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Registro único de vacunación - RUV aftosa y brucelosis
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal18 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal18")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img36.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal19 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Certificado hato libre de brucelosis
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal19")
-      .contenido-modal
-        span Certificado hato libre de brucelosis
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img34.png', alt='Texto que describa la imagen')
-    .row.align-items-center.mb-2
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Certificado hato libre de brucelosis
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal19 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal19")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img34.png', style="width: 900px").m-auto
       .col-lg-6.mb-2
-        .tarjeta.bg13.boton-modal.position-relative.p-3(@click="modal20 = true" @mouseover="mostrarIndicador = false")
-          .indicador--click(v-if="mostrarIndicador")
-          p.mb-0 Constancia expedida por el médico veterinario que le preste asistencia técnica a su finca
-          .row.justify-content-end
-            .col-6
-              img(src='@/assets/curso/tema2/img18.svg', style="width: 45px")
-    ModalA(:abrir-modal.sync="modal20")
-      .contenido-modal
-        span Constancia expedida por el médico veterinario que le preste asistencia técnica a su finca
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img38.png', alt='Texto que describa la imagen')
+        .bg13
+          .p-4
+            .row.align-items-center
+              .col
+                p.mb-0 Constancia expedida por el médico veterinario que le preste asistencia técnica a su finca
+              .col-auto
+                a.boton.color-acento-contenido.indicador__container(@click="modal20 = true")                 
+                  i.fas.fa-search
+                  .indicador--click(v-if="mostrarIndicador")   
+        ModalA(:abrir-modal.sync="modal20")
+          .contenido-modal
+            .row
+              .col-12
+                figure
+                  img(src='@/assets/curso/tema2/img38.png', style="width: 900px").m-auto
     
          
 </template>

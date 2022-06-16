@@ -11,7 +11,8 @@
     p.mb-5 Se da la bienvenida a este componente formativo, para comenzar el recorrido por el mismo se debe visitar el recurso didáctico que se muestra a continuación:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kr8p3us9CXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+       
 </template>
 
 <script>

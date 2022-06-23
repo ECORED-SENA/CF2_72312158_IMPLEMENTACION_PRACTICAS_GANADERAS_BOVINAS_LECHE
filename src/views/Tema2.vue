@@ -160,7 +160,7 @@
     p.mb-5 Cada procedimiento tiene sus propias tipologías de acuerdo con el proceso que se realice, es así como para la implementación de las buenas prácticas ganaderas en bovinos de leche se describen ciertas características por cada proceso, tal y como se muestra a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BHwq211HfWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
     p.mb-5 En cuanto a los registros se ha afirmado que deben llevarse procedimientos, procesos e implementación del plan de BPG. Por ello, a continuación, se podrá acceder a algunos formatos de marcas registradas, se debe recordar que estos solo serán de apoyo para que se pueda construir los propios:
     .row.align-items-center.mb-5
       .col-lg-6.mb-2
@@ -178,7 +178,7 @@
             .row
               .col-12
                 figure
-                  img(src='@/assets/curso/tema2/img19.png', style="width: 900px").m-auto
+                  img(src='@/assets/curso/tema2/img19.jpg', style="width: 900px").m-auto
       .col-lg-6.mb-2
         .bg12
           .p-4
@@ -290,7 +290,7 @@
             .row
               .col-12
                 figure
-                  img(src='@/assets/curso/tema2/img26.png', style="width: 900px").m-auto
+                  img(src='@/assets/curso/tema2/img26.jpg', style="width: 900px").m-auto
       .col-lg-6.mb-2
         .bg12
           .p-4

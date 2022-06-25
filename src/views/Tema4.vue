@@ -17,8 +17,8 @@
         .BGIMG01.p-5(data-aos="fade-right")
           .row.justify-content-center
             .col-10
-              h2.text-center Comunicación interna
-            .col-5
+              h3.text-center Comunicación interna
+            .col-3
               figure.mb-4
                 img(src='@/assets/curso/tema4/img05.svg')
             .col-12
@@ -27,8 +27,8 @@
         .BGIMG02.p-5(data-aos="fade-left")
           .row.justify-content-center
             .col-10
-              h2.text-center Comunicación externa
-            .col-5
+              h3.text-center Comunicación externa
+            .col-3
               figure.mb-4
                 img(src='@/assets/curso/tema4/img06.svg')
             .col-12

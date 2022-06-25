@@ -6,7 +6,11 @@
       .titulo-principal__numero
         span 2
       h1(data-aos="fade-left") Procedimientos, procesos, registros
-    p Un procedimiento no es más que la explicación en detalle de cómo se lleva a cabo un proceso. Este además debe ser documentado, ya sea en papel o forma digital y conocerse por todo el personal de la unidad productiva. Por otra parte, un proceso es la lista de tareas o actividades que se llevan secuencialmente una tras otra, siempre que existe un proceso en una empresa existe un procedimiento, así mismo siempre que existe un procedimiento en una empresa es porque existe un proceso detrás. Luego estos dos conceptos están relacionados íntimamente y es a partir de allí donde se generan los registros con el fin de que estas actividades sean documentadas de manera apropiada.
+    p.mb-4 Un procedimiento no es más que la explicación en detalle de cómo se lleva a cabo un proceso. Este además debe ser documentado, ya sea en papel o forma digital y conocerse por todo el personal de la unidad productiva. Por otra parte, un proceso es la lista de tareas o actividades que se llevan secuencialmente una tras otra, siempre que existe un proceso en una empresa existe un procedimiento, así mismo siempre que existe un procedimiento en una empresa es porque existe un proceso detrás. Luego estos dos conceptos están relacionados íntimamente y es a partir de allí donde se generan los registros con el fin de que estas actividades sean documentadas de manera apropiada.
+    .row.justify-content-center
+      .col-6
+        figure
+          img(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -55,7 +59,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img07.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
+                  .p-3
                     p.mb-0.ms-4 #[b Programa de control y prevención de mastitis]
             .carousel-item
               .row
@@ -73,7 +77,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img09.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
+                  .p-3
                     p.mb-0.ms-4 #[b Manejo de enfermedades endémicas y de control oficial]
             .carousel-item
               .row
@@ -82,7 +86,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
+                  .p-3
                     p.mb-0.ms-4 #[b Procedimientos de limpieza  y desinfección del tanque y equipo de ordeño]
             .carousel-item
               .row
@@ -92,7 +96,7 @@
                       img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
                 .col-12.bg11
                   .p-4
-                    p.mb-0.ms-4 #[b Procedimientos de limpieza  y desinfección del tanque y equipo de ordeño]
+                    p.mb-0.ms-4 #[b Procedimiento para la compra de animales]
             .carousel-item
               .row
                 .col-12.bg15
@@ -100,8 +104,8 @@
                     figure
                       img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
-                    p.mb-0.ms-4 #[b Procedimiento para la compra de animales]
+                  .p-3
+                    p.mb-0.ms-4 #[b Procedimiento de limpieza instalaciones cuarto del tanque y sitio de ordeño]
             .carousel-item
               .row
                 .col-12.bg15
@@ -109,7 +113,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
+                  .p-3
                     p.mb-0.ms-4 #[b Limpieza y desinfección de utensilios y elementos usados en el ordeño]
             .carousel-item
               .row
@@ -127,7 +131,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img15.png', alt='Texto que describa la imagen')
                 .col-12.bg11
-                  .p-4
+                  .p-3
                     p.mb-0.ms-4 #[b Registro de entrada de personas y vehículos]
             .carousel-item
               .row

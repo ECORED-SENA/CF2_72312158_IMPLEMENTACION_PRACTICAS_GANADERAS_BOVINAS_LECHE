@@ -28,7 +28,7 @@
             .col-auto
               img(src='@/assets/curso/tema1/img03.svg', style="width: 107px")
             .col-lg-10
-              p.mb-o Siendo la producción de leche un eslabón de importancia para la economía del país aportando cerca del 9,5% del PIB del sector agropecuario, lo cual representa el 25% del PIB pecuario, que se traduce en 365.000 productores en el territorio nacional y una producción manufacturera de lácteos de 3,8%. (ICA, 2021).
+              p.mb-o El plan de implementación en las Buenas Prácticas Ganaderas (BPG), se aplica durante los procesos de producción pecuaria, para que una empresa sea sostenible ambiental y económica a lo largo de la cadena productiva. Se le invita a revisar el siguiente recurso para comprender estas buenas prácticas:
     .row.justify-content-center
       .col-lg-10
         figure
@@ -64,11 +64,11 @@
     .row.justify-content-center
       .col-lg-12
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
-          .row.align-items-center.justify-content-center.mb-5
-            .col-lg-12.p-3
+          .row.align-items-center.mb-5
+            .col-lg-10.p-3
               p.mb-0 Para crear un cronograma se debe tener en cuenta el tiempo total definido para la implementación, los objetivos o metas, las actividades que se incluyen por más minúsculas que parezcan, como:
           .row.align-items-center.mb-5
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-5.mb-4.mb-lg-0
               ul.lista-ul.ms-3
                 li 
                   i.fas.fa-check(style="color: #FF854E")
@@ -94,11 +94,11 @@
                 li 
                   i.fas.fa-check(style="color: #FF854E")
                   | Entre otras
-            .col-lg-5 
+            .col-lg-5
               img(src='@/assets/curso/tema1/img04.png')
           .row.align-items-center.justify-content-center
             .col-lg-8.bg3.m-2
-                p.mb-0.p-4 Entre más específico mejor quedará el cronograma y por tanto, las actividades serán mejor planeadas y ejecutadas en los tiempos requeridos.
+                p.mb-0.p-4 #[b Entre más específico mejor quedará el cronograma y por tanto, las actividades serán mejor planeadas y ejecutadas en los tiempos requeridos.]
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -206,7 +206,7 @@
             p La indumentaria adecuada para el ordeño y demás labores en la producción debe ser portada y exigida en cada una de las labores. Pero además debe haber registro de las capacitaciones realizadas por la unidad pecuaria sobre temas como enfermedades de control oficial, sanidad animal, manejo, procesos productivos en la industria pecuaria, entre otros.
           .col-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img12.png', style="width: 535px").m-auto
+              img(src='@/assets/curso/tema1/img14.png', style="width: 535px").m-auto
 
     Separador
     #t_1_5
@@ -280,9 +280,8 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 1
       span Totalización de criterios para certificación de BPG (Tomado de: Lista de chequeo de predios productores de leche con destino al consumo humano).
-    .row(data-aos="fade-right")
+    .row.mb-3(data-aos="fade-right")
       .col-12
-        .p-3.p-lg-5
           .tabla-b
             table.mb-5(data-aos="fade-right")
               thead
@@ -338,7 +337,7 @@
               h4.text-center.mt-5 CERTIFICABLE
               p El concepto técnico será certificable cuando el predio cumpla con: el 100% de los criterios Fundamentales, mínimo el 80% de los criterios Mayores y mínimo 60 % de los criterios Menores, ante lo cual se expedirá el certificado de Buenas Prácticas Ganaderas BPG en la producción de leche. (Resolución 67449 de 2020 [ICA], Por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de leche).
       
-      Separador
+    Separador
     #t_1_7
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.7 Documentación
@@ -427,9 +426,15 @@
       .col-lg-4 
         img(src='@/assets/curso/tema1/img23.svg')
     p.mb-5 Además, es necesario revisar la normatividad vigente de las BPG, establecida por el Instituto Colombiano Agropecuario - ICA y finalmente aplicar la lista de chequeo de “predios productores de leche con destino al consumo humano - Forma 3-852 V. 5” Esta lista de chequeo se aplica con el fin de encontrar carencias ante la normatividad e iniciar un plan que permita completar los aspectos faltantes para poder obtener la certificación.
+
+     Separador
+    #t_1_8
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.8 Metas
+    p.mb-3 Las metas son la parte tangible del plan de implementación, es lo que se va a percibir una vez se ejecute con éxito el plan, están directamente relacionadas con los objetivos y permite que se haga una medición del proceso a través de los resultados; en otras palabras, las metas son el propósito del plan, en este caso la implementación de las buenas prácticas ganaderas en bovinos de leche. Al lograr la implementación entonces se puede: 
     .row.justify-content-center.mb-5
       .col-lg-12
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-3
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')

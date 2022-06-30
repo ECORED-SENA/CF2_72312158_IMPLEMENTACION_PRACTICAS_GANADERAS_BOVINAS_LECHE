@@ -12,7 +12,7 @@
       .col-lg-5
         figure.mb-4.mb-lg-0
          img(src='@/assets/curso/tema5/img01.png', style="width: 450px").m-auto(data-aos="fade-right")
-    p Las herramientas para la gestión de personal manejan todos los procesos básicos interrelacionados con la función de Recursos Humanos y se pueden utilizar soluciones tecnológicas como un software de RH que a través de la automatización y mejoramiento de los procesos ha simplificado las tareas que se realizan en la gestión del personal, dando como resultado empleados más proactivos, motivados y productivos.
+    p Las herramientas para la gestión de personal manejan todos los procesos básicos interrelacionados con la función de Recursos Humanos y se pueden utilizar soluciones tecnológicas como un #[em software] de RH que a través de la automatización y mejoramiento de los procesos ha simplificado las tareas que se realizan en la gestión del personal, dando como resultado empleados más proactivos, motivados y productivos.
 </template>
 
 <script>

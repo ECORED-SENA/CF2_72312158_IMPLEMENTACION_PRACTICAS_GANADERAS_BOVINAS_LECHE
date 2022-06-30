@@ -39,7 +39,7 @@
     #t_1_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Objetivos
-    p.mb-5 Para diseñar un plan de implementación en primera instancia se debe identificar qué es lo que se busca lograr principalmente; es decir, cuáles son las metas claras que se quieren alcanzar, cuál es el propósito del programa y cómo se quiere conseguir, además de que se ponga en práctica en la unidad productiva, cada una de las anteriores cuestiones deben estar visualizadas en cada uno de los procesos y en la misión y visión, en un tiempo definido.
+    p.mb-5 Para diseñar un plan de implementación en primera instancia se debe identificar ¿qué es lo que se busca lograr principalmente?; es decir, ¿cuáles son las metas claras que se quieren alcanzar?, ¿cuál es el propósito del programa? y ¿cómo se quiere conseguir?, además de que se ponga en práctica en la unidad productiva, cada una de las anteriores cuestiones deben estar visualizadas en cada uno de los procesos y en la misión y visión, en un tiempo definido.
     .row.mb-5.align-items-center(data-aos="fade-right")
       .col-lg-7.mb-4.mb-lg-0
         .dual-txt-deco
@@ -60,7 +60,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img03.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p Un cronograma es la planeación de las actividades para ejecución en una línea de tiempo; por ende, esta herramienta permite visualizar el pan de implementación en todas sus dimensiones y el tiempo que este requiere para llevarse a cabo, siendo más claros un cronograma permite hacerse un mejor panorama de cómo encajan todos los puntos del plan, como interactúan las fases y cuál es el proceso para lograrlo en un determinado tiempo, muchas veces vinculando también el equipo de personas que participan en los mismos.
+            p Un cronograma es la planeación de las actividades para ejecución en una línea de tiempo; por ende, esta herramienta permite visualizar el pan de implementación en todas sus dimensiones y el tiempo que este requiere para llevarse a cabo, siendo más claros un cronograma permite hacerse un mejor panorama de cómo encajan todos los puntos del plan, como interactúan las fases y ¿cuál es el proceso para lograrlo en un determinado tiempo?, muchas veces vinculando también el equipo de personas que participan en los mismos.
     .row.justify-content-center
       .col-lg-12
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
@@ -148,7 +148,7 @@
           .col-lg-5
             h4 Sistema y sitio de ordeño
             p El sitio en donde se lleve a cabo el ordeño debe proporcionar comodidad y tranquilidad a las vacas, además de seguridad al ordeñador, razón por la cual debe estar protegido. Se deben cumplir las normas físicas básicas de infraestructura, ya sea que el ordeño se lleve a cabo en un lugar fijo o sea móvil en los potreros.
-            p #[b Terreno de fácil drenaje:] Evitando que se produzcan encharcamientos. <br> #[b Evitando que se produzcan encharcamientos:] Para impedir el ingreso de perros, gatos y otros animales extraños.<br> #[b Sala fija:]  Los pisos y las paredes deben ser lisas y construidas en materiales que permitan el fácil lavado, limpieza y desinfección.
+            p #[b Terreno de fácil drenaje:] Evitando que se produzcan encharcamientos. <br> #[b Techos con estructuras:] Para impedir el ingreso de perros, gatos y otros animales extraños.<br> #[b Sala fija:]  Los pisos y las paredes deben ser lisas y construidas en materiales que permitan el fácil lavado, limpieza y desinfección.
           .col-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img08.png', style="width: 535px").m-auto
@@ -398,31 +398,29 @@
         ul.lista-ul.ms-3
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Vacunación
+            | Certificado de uso del suelo. 
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Desparasitación
+            | Guía de movilización interna. 
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Lavado y desinfección del tanque frio
+            | Registro sanitario del predio.
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Lavado y desinfección de utensilios de ordeño
+            | Certificado hato libre de brucelosis. 
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Rutina de ordeño
+            | Certificado hato libre de tuberculosis.
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Análisis y calidad de agua
+            | Constancia de registro de predio ante el ICA. 
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Utilización de medicamentos veterinarios e insumos agropecuarios
+            | Registro único de vacunación - RUV. 
           li 
             i.fas.fa-check(style="color: #FF854E")
-            | Mantenimiento de equipos de la granja
-          li 
-            i.fas.fa-check(style="color: #FF854E")
-            | Entrada y salida del personal a la granja
+            | Constancia expedida por el médico veterinario que le presta asistencia técnica a la finca.
+          
       .col-lg-4 
         img(src='@/assets/curso/tema1/img23.svg')
     p.mb-5 Además, es necesario revisar la normatividad vigente de las BPG, establecida por el Instituto Colombiano Agropecuario - ICA y finalmente aplicar la lista de chequeo de “predios productores de leche con destino al consumo humano - Forma 3-852 V. 5” Esta lista de chequeo se aplica con el fin de encontrar carencias ante la normatividad e iniciar un plan que permita completar los aspectos faltantes para poder obtener la certificación.

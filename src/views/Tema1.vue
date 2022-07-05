@@ -132,13 +132,13 @@
           .col-lg-5
             h4 Sanidad animal y bioseguridad
             p Los predios y el inventario ganadero deben estar registrados ante el ICA y estar autorizados por el plan de ordenamiento territorial (POT), además las reses deben cumplir con un plan sanitario que incluya la prevención, diagnóstico y manejo de enfermedades de control oficial, endémicas y las demás que pudiere requerir la autoridad sanitaria, también debe incluir prácticas de manejo, planes de vacunación y desparasitación, tratamientos comúnmente realizados en la producción. 
-            p Se debe efectuar un programa de prevención y control de la mastitis a todas las vacas en producción, con frecuencia por los menos una vez al mes, a través del test de california y tomar las medidas necesarias para el tratamiento y control del hato productivo. Por otra parte, las instalaciones deben contar como mínimo con corrales, bretes, salas de ordeño, embarcadero, entre otros, que permitan llevar a cabo las labores rutinarias de forma segura para el personal y garantizando el bienestar de los animales, además deben estar construidas con materiales que permitan la fácil limpieza y desinfección.
+            p Se debe efectuar un programa de prevención y control de la mastitis a todas las vacas en producción, con frecuencia por los menos una vez al mes, a través del test de California y tomar las medidas necesarias para el tratamiento y control del hato productivo. Por otra parte, las instalaciones deben contar como mínimo con corrales, bretes, salas de ordeño, embarcadero, entre otros, que permitan llevar a cabo las labores rutinarias de forma segura para el personal y garantizando el bienestar de los animales, además deben estar construidas con materiales que permitan la fácil limpieza y desinfección.
           .col-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img06.png', style="width: 535px").m-auto
         .row.align-items-center.justify-content-center
           .col-lg-5
-            h4 Cuarto de tanque de frio 
+            h4 Cuarto de tanque de frío 
             p Este es uno de los puntos neurálgicos en cuanto al momento de garantizar la inocuidad de la leche, siendo imprescindible la conservación y protección del producto en el momento del acopio, puesto que aquí es en donde aumentan los riesgos de contaminación debido a la mezcla de leches de diferentes fuentes de origen.
             p Los predios deben disponer de un espacio especial para dedicarse solo al fin de acopio y conservación de leche a través del enfriamiento, con paredes y pisos lisas, sin poros construidas con materiales de fácil limpieza y desinfección, contar con desagües de rejilla, con ventanas protegidas que impidan la entrada de animales extraños, roedores, insectos y aves. Además, los equipos, implementos y utensilios usados en el ordeño, manipulación y almacenamiento de la leche deben ser de material apropiado que aseguren la inocuidad del producto y por ende disminuyendo el riesgo de cualquier tipo de contaminación. 
           .col-auto.mb-4.mb-lg-0
@@ -366,7 +366,7 @@
                   | Desparasitación
                 li 
                   i.fas.fa-check(style="color: #FF854E")
-                  | Lavado y desinfección del tanque frio
+                  | Lavado y desinfección del tanque frío
                 li 
                   i.fas.fa-check(style="color: #FF854E")
                   | Lavado y desinfección de utensilios de ordeño
